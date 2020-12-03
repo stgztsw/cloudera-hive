@@ -202,6 +202,19 @@
 
   <repositories>
     <repository>
+      <id>mirrors.huaweicloud.com</id>
+      <url>https://mirrors.huaweicloud.com/kunpeng/maven</url>
+      <name>mirrors huaweicloud com</name>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>repository.huaweicloud.com</id>
+      <url>https://mirrors.huaweicloud.com/repository/maven</url>
+      <name>repository huaweicloud com</name>
+    </repository>
+    <repository>
       <id>cdh.releases.repo</id>
       <url>https://repository.cloudera.com/content/groups/cdh-releases-rcs</url>
       <name>CDH Releases Repository</name>
@@ -270,6 +283,16 @@
        </snapshots>
     </repository>
   </repositories>
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>huaweicloud-plugin</id>
+      <url>http://mirrors.huaweicloud.com/repository/maven</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>
 
   <dependencyManagement>
     <dependencies>
