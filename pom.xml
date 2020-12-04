@@ -230,6 +230,14 @@
         <enabled>true</enabled>
       </snapshots>
     </repository>
+    <repository>
+      <id>cdh.other.repo</id>
+      <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
+      <name>CDH other Repository</name>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
     <!-- This needs to be removed before checking in-->
     <repository>
       <id>datanucleus</id>
